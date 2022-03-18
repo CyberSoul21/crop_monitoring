@@ -1,0 +1,405 @@
+<app-header titulo='Información'></app-header>
+
+<ion-content>
+
+<ion-card>
+	<ion-header align='center'>Planta 1</ion-header>
+</ion-card>
+
+<ion-grid>
+	<ion-row>
+		<ion-col>
+			<ion-card>
+				<ion-card-header> Luz </ion-card-header>
+				<ion-grid>
+					<ion-row>
+						<ion-col>
+							<img *ngIf = 'bulb_plant_1; else otra_foto' src='/assets/Bombillo.png'>
+							<ng-template #otra_foto>
+							    <img src='/assets/Bombillo_triste.png'>
+							</ng-template>
+						</ion-col>
+						<ion-col>
+							<p>Inferior a óptima</p>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-card>
+		</ion-col>
+
+		<ion-col>
+			<ion-card>
+				<ion-card-header> Humedad </ion-card-header>
+				<ion-grid>
+					<ion-row>
+						<ion-col>
+							<img src='/assets/Gota_feliz.png'>
+						</ion-col>
+						<ion-col>
+							<p>10%</p>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-card>
+		</ion-col>
+		
+	</ion-row>
+
+	<ion-row>
+		<ion-col>
+			<ion-card>
+				<ion-card-header> Temperatura </ion-card-header>
+				<ion-grid>
+					<ion-row size='4'>
+						<ion-col>
+							<img src='/assets/term1_small.png'>
+						</ion-col>
+						<ion-col>
+							<p>26°C</p>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-card>
+		</ion-col>
+
+		<ion-col>
+			<ion-card>
+				<ion-card-header> Monóxido de carbono </ion-card-header>
+				<ion-grid>
+					<ion-row>
+						<ion-col>
+							<img src='/assets/CO.png'>
+						</ion-col>
+						<ion-col>
+							<p>Óptima</p>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-card>
+		</ion-col>
+		
+	</ion-row>
+
+</ion-grid>
+<!-- --------------------------------- -->
+
+<ion-card>
+	<ion-header align='center'>Planta 2</ion-header>
+</ion-card>
+
+<ion-grid>
+	<ion-row>
+		<ion-col>
+			<ion-card>
+				<ion-card-header> Luz </ion-card-header>
+				<ion-grid>
+					<ion-row>
+						<ion-col>
+							<img src='/assets/Bombillo.png'>
+						</ion-col>
+						<ion-col>
+							<p>Óptima</p>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-card>
+		</ion-col>
+
+		<ion-col>
+			<ion-card>
+				<ion-card-header> Humedad </ion-card-header>
+				<ion-grid>
+					<ion-row>
+						<ion-col>
+							<img src='/assets/Gota_triste.png'>
+						</ion-col>
+						<ion-col>
+							<p>60%</p>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-card>
+		</ion-col>
+		
+	</ion-row>
+
+	<ion-row>
+		<ion-col>
+			<ion-card>
+				<ion-card-header> Temperatura </ion-card-header>
+				<ion-grid>
+					<ion-row size='4'>
+						<ion-col>
+							<img src='/assets/term1_small.png'>
+						</ion-col>
+						<ion-col>
+							<p>30°C</p>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-card>
+		</ion-col>
+
+		<ion-col>
+			<ion-card>
+				<ion-card-header> Monóxido de carbono </ion-card-header>
+				<ion-grid>
+					<ion-row>
+						<ion-col>
+							<img src='/assets/CO.png'>
+						</ion-col>
+						<ion-col>
+							<p>Óptima</p>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-card>
+		</ion-col>
+		
+	</ion-row>
+
+</ion-grid>
+<!-- --------------------------------- -->
+
+<ion-card>
+	<ion-header align='center'>Planta 3</ion-header>
+</ion-card>
+
+<ion-grid>
+	<ion-row>
+		<ion-col>
+			<ion-card>
+				<ion-card-header> Luz </ion-card-header>
+				<ion-grid>
+					<ion-row>
+						<ion-col>
+							<img src='/assets/Bombillo.png'>
+						</ion-col>
+						<ion-col>
+							<p>Óptima</p>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-card>
+		</ion-col>
+
+		<ion-col>
+			<ion-card>
+				<ion-card-header> Humedad </ion-card-header>
+				<ion-grid>
+					<ion-row>
+						<ion-col>
+							<img src='/assets/Gota_feliz.png'>
+						</ion-col>
+						<ion-col>
+							<p>10%</p>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-card>
+		</ion-col>
+		
+	</ion-row>
+
+	<ion-row>
+		<ion-col>
+			<ion-card>
+				<ion-card-header> Temperatura </ion-card-header>
+				<ion-grid>
+					<ion-row size='4'>
+						<ion-col>
+							<img src='/assets/term1_small.png'>
+						</ion-col>
+						<ion-col>
+							<p>26°C</p>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-card>
+		</ion-col>
+
+		<ion-col>
+			<ion-card>
+				<ion-card-header> Monóxido de carbono </ion-card-header>
+				<ion-grid>
+					<ion-row>
+						<ion-col>
+							<img src='/assets/CO.png'>
+						</ion-col>
+						<ion-col>
+							<p>Óptima</p>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-card>
+		</ion-col>
+		
+	</ion-row>
+
+</ion-grid>
+<!-- --------------------------------- -->
+
+<ion-card>
+	<ion-header align='center'>Planta 4</ion-header>
+</ion-card>
+
+<ion-grid>
+	<ion-row>
+		<ion-col>
+			<ion-card>
+				<ion-card-header> Luz </ion-card-header>
+				<ion-grid>
+					<ion-row>
+						<ion-col>
+							<img src='/assets/Bombillo.png'>
+						</ion-col>
+						<ion-col>
+							<p>Óptima</p>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-card>
+		</ion-col>
+
+		<ion-col>
+			<ion-card>
+				<ion-card-header> Humedad </ion-card-header>
+				<ion-grid>
+					<ion-row>
+						<ion-col>
+							<img src='/assets/Gota_feliz.png'>
+						</ion-col>
+						<ion-col>
+							<p>10%</p>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-card>
+		</ion-col>
+		
+	</ion-row>
+
+	<ion-row>
+		<ion-col>
+			<ion-card>
+				<ion-card-header> Temperatura </ion-card-header>
+				<ion-grid>
+					<ion-row size='4'>
+						<ion-col>
+							<img src='/assets/term1_small.png'>
+						</ion-col>
+						<ion-col>
+							<p>26°C</p>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-card>
+		</ion-col>
+
+		<ion-col>
+			<ion-card>
+				<ion-card-header> Monóxido de carbono </ion-card-header>
+				<ion-grid>
+					<ion-row>
+						<ion-col>
+							<img src='/assets/CO.png'>
+						</ion-col>
+						<ion-col>
+							<p>Óptima</p>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</ion-card>
+		</ion-col>
+		
+	</ion-row>
+
+</ion-grid>
+
+
+<ion-card>
+	<ion-list>
+	  <ion-item *ngFor='let p of arreglo_plantas'>
+	    <ion-label> Planta: {{ p.Planta }}, {{ p.Variable }}: {{ p.Valor }} </ion-label>
+	  </ion-item>
+	</ion-list>
+</ion-card>
+
+<!--
+<h3>---------------------------</h3>
+
+<h3>Planta 1</h3>
+
+<ion-card>
+	<ion-card-header> Tarjeta 1</ion-card-header>
+</ion-card>
+
+<ion-card>
+	<ion-card-header> Tarjeta 2</ion-card-header>
+</ion-card>
+
+<ion-card>
+	<ion-card-header> Tarjeta 3</ion-card-header>
+</ion-card>
+
+<ion-card>
+	<ion-card-header> Tarjeta 4</ion-card-header>
+</ion-card>
+
+<h3>Planta 2</h3>
+
+<ion-card>
+	<ion-card-header> Tarjeta 1</ion-card-header>
+</ion-card>
+
+<ion-card>
+	<ion-card-header> Tarjeta 2</ion-card-header>
+</ion-card>
+
+<ion-card>
+	<ion-card-header> Tarjeta 3</ion-card-header>
+</ion-card>
+
+<ion-card>
+	<ion-card-header> Tarjeta 4</ion-card-header>
+</ion-card>
+
+<h3>Planta 3</h3>
+
+<ion-card>
+	<ion-card-header> Tarjeta 1</ion-card-header>
+</ion-card>
+
+<ion-card>
+	<ion-card-header> Tarjeta 2</ion-card-header>
+</ion-card>
+
+<ion-card>
+	<ion-card-header> Tarjeta 3</ion-card-header>
+</ion-card>
+
+<ion-card>
+	<ion-card-header> Tarjeta 4</ion-card-header>
+</ion-card>
+
+<h3>Planta 4</h3>
+
+<ion-card>
+	<ion-card-header> Tarjeta 1</ion-card-header>
+</ion-card>
+
+<ion-card>
+	<ion-card-header> Tarjeta 2</ion-card-header>
+</ion-card>
+
+<ion-card>
+	<ion-card-header> Tarjeta 3</ion-card-header>
+</ion-card>
+
+<ion-card>
+	<ion-card-header> Tarjeta 4</ion-card-header>
+</ion-card>
+
+-->
+
+</ion-content>

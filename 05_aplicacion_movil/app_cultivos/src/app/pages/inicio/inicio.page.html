@@ -1,0 +1,44 @@
+<app-header titulo='Cultivos Inteligentes'></app-header>
+
+<img src='/assets/f5.jpg'>
+
+<ion-list>
+  <ion-item *ngFor='let m of menu_list' [routerLink]='m.redirectTo' detail>
+    <ion-icon slot='start' [name]='m.icon'></ion-icon>
+    <ion-label> {{ m.name }} </ion-label>
+  </ion-item>
+</ion-list>
+
+<ion-content>
+
+<!--
+<ion-button *ngIf = 'prueba_ng'>
+  Botón de prueba!!
+</ion-button>
+
+<ion-list> 
+    <button ion-item *ngFor='let arreglo of arreglos'>
+      {{ arreglo }}
+    </button>
+  </ion-list>
+
+<div *ngFor = 'let arreglo of arreglos'>
+        <h2>{{arreglo}} se está mostrando!!!!</h2>
+</div>
+
+  <ion-button routerLink='/alert'>
+    Alert
+  </ion-button>
+
+  <ion-button routerLink='/action-sheet'>
+    Action-sheet
+  </ion-button>
+
+  <ion-list> 
+  	<button ion-item *ngFor='let user of usuarios'>
+      {{ user.id }} - {{ user.name }}
+  	</button>
+  </ion-list>
+-->
+
+</ion-content>
