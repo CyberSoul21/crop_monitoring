@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Jan 24 15:23:18 2020
+# Process ID: 18080
+# Current directory: /home/dorfell/Documents/Vitis_2019.2/socs_design/02_microblaze_axi/02_microblaze_axi.runs/microblaze_bd_ilmb_v10_0_synth_1
+# Command line: vivado -log microblaze_bd_ilmb_v10_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source microblaze_bd_ilmb_v10_0.tcl
+# Log file: /home/dorfell/Documents/Vitis_2019.2/socs_design/02_microblaze_axi/02_microblaze_axi.runs/microblaze_bd_ilmb_v10_0_synth_1/microblaze_bd_ilmb_v10_0.vds
+# Journal file: /home/dorfell/Documents/Vitis_2019.2/socs_design/02_microblaze_axi/02_microblaze_axi.runs/microblaze_bd_ilmb_v10_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source microblaze_bd_ilmb_v10_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1480.152 ; gain = 46.023 ; free physical = 3300 ; free virtual = 22816
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP microblaze_bd_ilmb_v10_0, cache-ID = bd3b7c6646d73b34.
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 24 15:23:41 2020...

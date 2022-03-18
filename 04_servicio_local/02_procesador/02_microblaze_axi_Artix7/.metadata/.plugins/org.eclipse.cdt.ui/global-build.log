@@ -1,0 +1,116 @@
+Nothing to build in platform 'microblaze_bd_wrapper_lcd'
+
+00:30:13 **** Incremental Build of configuration Debug for project lcd_v2_9600 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I/home/javier/Desktop/Debian2/02_microblaze_axi_Artix7/microblaze_bd_wrapper_lcd/export/microblaze_bd_wrapper_lcd/sw/microblaze_bd_wrapper_lcd/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:145:38: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+       XUartLite_Send(&AXI_UartLite1, "t2.txt=\"23.9\"", 13); // Funciona !! 12/06/20
+                                      ^~~~~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:28:
+/home/javier/Desktop/Debian2/02_microblaze_axi_Artix7/microblaze_bd_wrapper_lcd/export/microblaze_bd_wrapper_lcd/sw/microblaze_bd_wrapper_lcd/standalone_domain/bspinclude/include/xuartlite.h:253:14: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:146:38: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+       XUartLite_Send(&AXI_UartLite1, "\xFF\xFF\xFF", 8);
+                                      ^~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:28:
+/home/javier/Desktop/Debian2/02_microblaze_axi_Artix7/microblaze_bd_wrapper_lcd/export/microblaze_bd_wrapper_lcd/sw/microblaze_bd_wrapper_lcd/standalone_domain/bspinclude/include/xuartlite.h:253:14: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:147:4: warning: implicit declaration of function 'usleep'; did you mean 'fseek'? [-Wimplicit-function-declaration]
+    usleep(2000000); // 100mse
+    ^~~~~~
+    fseek
+../src/helloworld.c:152:38: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+       XUartLite_Send(&AXI_UartLite1, "h2.txt=\"0074\"", 13); // Funciona !! 12/06/20
+                                      ^~~~~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:28:
+/home/javier/Desktop/Debian2/02_microblaze_axi_Artix7/microblaze_bd_wrapper_lcd/export/microblaze_bd_wrapper_lcd/sw/microblaze_bd_wrapper_lcd/standalone_domain/bspinclude/include/xuartlite.h:253:14: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:153:38: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+       XUartLite_Send(&AXI_UartLite1, "\xFF\xFF\xFF", 8);
+                                      ^~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:28:
+/home/javier/Desktop/Debian2/02_microblaze_axi_Artix7/microblaze_bd_wrapper_lcd/export/microblaze_bd_wrapper_lcd/sw/microblaze_bd_wrapper_lcd/standalone_domain/bspinclude/include/xuartlite.h:253:14: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:159:38: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+       XUartLite_Send(&AXI_UartLite1, "c2.txt=\"16.0\"", 13); // Funciona !! 12/06/20
+                                      ^~~~~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:28:
+/home/javier/Desktop/Debian2/02_microblaze_axi_Artix7/microblaze_bd_wrapper_lcd/export/microblaze_bd_wrapper_lcd/sw/microblaze_bd_wrapper_lcd/standalone_domain/bspinclude/include/xuartlite.h:253:14: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:160:38: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+       XUartLite_Send(&AXI_UartLite1, "\xFF\xFF\xFF", 8);
+                                      ^~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:28:
+/home/javier/Desktop/Debian2/02_microblaze_axi_Artix7/microblaze_bd_wrapper_lcd/export/microblaze_bd_wrapper_lcd/sw/microblaze_bd_wrapper_lcd/standalone_domain/bspinclude/include/xuartlite.h:253:14: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:166:38: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+       XUartLite_Send(&AXI_UartLite1, "l2.txt=\"1111\"", 13); // Funciona !! 12/06/20
+                                      ^~~~~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:28:
+/home/javier/Desktop/Debian2/02_microblaze_axi_Artix7/microblaze_bd_wrapper_lcd/export/microblaze_bd_wrapper_lcd/sw/microblaze_bd_wrapper_lcd/standalone_domain/bspinclude/include/xuartlite.h:253:14: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:167:38: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+       XUartLite_Send(&AXI_UartLite1, "\xFF\xFF\xFF", 8);
+                                      ^~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:28:
+/home/javier/Desktop/Debian2/02_microblaze_axi_Artix7/microblaze_bd_wrapper_lcd/export/microblaze_bd_wrapper_lcd/sw/microblaze_bd_wrapper_lcd/standalone_domain/bspinclude/include/xuartlite.h:253:14: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:173:38: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+       XUartLite_Send(&AXI_UartLite1, "l2.txt=\"0000\"", 13); // Funciona !! 12/06/20
+                                      ^~~~~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:28:
+/home/javier/Desktop/Debian2/02_microblaze_axi_Artix7/microblaze_bd_wrapper_lcd/export/microblaze_bd_wrapper_lcd/sw/microblaze_bd_wrapper_lcd/standalone_domain/bspinclude/include/xuartlite.h:253:14: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:174:38: warning: pointer targets in passing argument 2 of 'XUartLite_Send' differ in signedness [-Wpointer-sign]
+       XUartLite_Send(&AXI_UartLite1, "\xFF\xFF\xFF", 8);
+                                      ^~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:28:
+/home/javier/Desktop/Debian2/02_microblaze_axi_Artix7/microblaze_bd_wrapper_lcd/export/microblaze_bd_wrapper_lcd/sw/microblaze_bd_wrapper_lcd/standalone_domain/bspinclude/include/xuartlite.h:253:14: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+ unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
+              ^~~~~~~~~~~~~~
+../src/helloworld.c:56:6: warning: unused variable 'aux' [-Wunused-variable]
+  int aux = 0;
+      ^~~
+../src/helloworld.c:55:7: warning: unused variable 'output_serial' [-Wunused-variable]
+  u8   output_serial[SIZE]= "";
+       ^~~~~~~~~~~~~
+../src/helloworld.c:54:7: warning: unused variable 'end' [-Wunused-variable]
+  u8   end[2] = "\"";
+       ^~~
+../src/helloworld.c:53:7: warning: unused variable 'init' [-Wunused-variable]
+  u8   init[6] = ".txt=\"";
+       ^~~~
+../src/helloworld.c:52:7: warning: unused variable 'plants' [-Wunused-variable]
+  u8   plants[8] = "123aif";
+       ^~~~~~
+../src/helloworld.c:51:7: warning: unused variable 'input_serial' [-Wunused-variable]
+  u8   input_serial[8] = "";
+       ^~~~~~~~~~~~
+Finished building: ../src/helloworld.c
+ 
+Building target: lcd_v2_9600.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/javier/Desktop/Debian2/02_microblaze_axi_Artix7/microblaze_bd_wrapper_lcd/export/microblaze_bd_wrapper_lcd/sw/microblaze_bd_wrapper_lcd/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lcd_v2_9600.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lcd_v2_9600.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size lcd_v2_9600.elf  |tee "lcd_v2_9600.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5672	    336	   3280	   9288	   2448	lcd_v2_9600.elf
+Finished building: lcd_v2_9600.elf.size
+ 
+00:30:14 **** Incremental Build of configuration Debug for project lcd_v2_9600_system ****
+make all 
+Skipping SD card image generation. Reason: The system project only has applications for microblaze processors.

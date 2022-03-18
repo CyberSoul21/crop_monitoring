@@ -1,0 +1,92 @@
+timestamp=[2020-01-24 15:49:27], mode=WORKBENCH_START, duration=0:00:08.502, duration_ms=8502, data={}
+timestamp=[2020-01-24 15:49:30], mode=WORKBENCH_UI_INIT, duration=0:00:03.267, duration_ms=3267, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2020-01-24 15:50:19], mode=APP_CREATION, duration=0:00:10.758, duration_ms=10758, data={name=hello_world, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=microblaze_bd_wrapper, application_type=application}
+timestamp=[2020-01-24 15:51:44], mode=PLATFORM_GENERATION, duration=0:00:11.307, duration_ms=11307, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-24 15:54:19], mode=PLATFORM_GENERATION, duration=0:00:08.247, duration_ms=8247, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-24 15:54:30], mode=PLATFORM_GENERATION, duration=0:00:11.184, duration_ms=11184, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-24 16:16:13], mode=PLATFORM_GENERATION, duration=0:00:07.905, duration_ms=7905, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-24 16:16:25], mode=PLATFORM_GENERATION, duration=0:00:11.009, duration_ms=11009, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-24 16:17:18], mode=PLATFORM_GENERATION, duration=0:00:07.864, duration_ms=7864, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-24 16:17:31], mode=PLATFORM_GENERATION, duration=0:00:08.118, duration_ms=8118, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-24 16:18:44], mode=PLATFORM_GENERATION, duration=0:00:07.842, duration_ms=7842, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-24 16:18:59], mode=PLATFORM_GENERATION, duration=0:00:10.965, duration_ms=10965, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-24 16:32:45], mode=PLATFORM_GENERATION, duration=0:00:07.821, duration_ms=7821, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-24 16:32:56], mode=PLATFORM_GENERATION, duration=0:00:10.888, duration_ms=10888, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-24 17:24:18], mode=PLATFORM_GENERATION, duration=0:00:07.766, duration_ms=7766, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-24 17:24:33], mode=PLATFORM_GENERATION, duration=0:00:07.731, duration_ms=7731, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-24 17:24:44], mode=PLATFORM_GENERATION, duration=0:00:10.917, duration_ms=10917, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-25 08:50:39], mode=WORKBENCH_START, duration=0:00:21.078, duration_ms=21078, data={}
+timestamp=[2020-01-25 08:50:44], mode=WORKBENCH_UI_INIT, duration=0:00:05.112, duration_ms=5112, data={editors_count=2, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,hello_world,hello_world_system,microblaze_bd_wrapper}
+timestamp=[2020-01-25 09:31:33], mode=PLATFORM_GENERATION, duration=0:00:15.183, duration_ms=15183, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-25 09:31:45], mode=PLATFORM_GENERATION, duration=0:00:11.315, duration_ms=11315, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-25 09:57:31], mode=PLATFORM_GENERATION, duration=0:00:11.537, duration_ms=11537, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-25 09:58:35], mode=PLATFORM_GENERATION, duration=0:00:10.991, duration_ms=10991, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-25 10:00:27], mode=PLATFORM_GENERATION, duration=0:00:11.152, duration_ms=11152, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-25 10:01:30], mode=PLATFORM_GENERATION, duration=0:00:16.479, duration_ms=16479, data={name=microblaze_bd_wrapper}
+timestamp=[2020-01-31 15:22:26], mode=WORKBENCH_START, duration=0:00:31.512, duration_ms=31512, data={}
+timestamp=[2020-01-31 15:22:32], mode=WORKBENCH_UI_INIT, duration=0:00:05.699, duration_ms=5699, data={editors_count=2, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,hello_world,hello_world_system,microblaze_bd_wrapper}
+timestamp=[2020-06-04 23:46:53], mode=WORKBENCH_START, duration=0:00:22.277, duration_ms=22277, data={}
+timestamp=[2020-06-04 23:46:55], mode=WORKBENCH_UI_INIT, duration=0:00:01.822, duration_ms=1822, data={editors_count=2, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,hello_world,hello_world_system,microblaze_bd_wrapper}
+timestamp=[2020-06-04 23:48:46], mode=APP_CREATION, duration=0:00:04.185, duration_ms=4185, data={name=lcd_v2_9600, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=microblaze_bd_wrapper_lcd, application_type=application}
+timestamp=[2020-06-04 23:50:13], mode=PLATFORM_GENERATION, duration=0:00:06.071, duration_ms=6071, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-04 23:56:17], mode=PLATFORM_GENERATION, duration=0:00:05.082, duration_ms=5082, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-04 23:56:24], mode=PLATFORM_GENERATION, duration=0:00:06.309, duration_ms=6309, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-04 23:57:43], mode=PLATFORM_GENERATION, duration=0:00:04.983, duration_ms=4983, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-04 23:57:50], mode=PLATFORM_GENERATION, duration=0:00:06.263, duration_ms=6263, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-05 00:19:46], mode=PLATFORM_GENERATION, duration=0:00:05.435, duration_ms=5435, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-05 00:19:58], mode=PLATFORM_GENERATION, duration=0:00:06.252, duration_ms=6252, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-05 01:08:55], mode=PLATFORM_GENERATION, duration=0:00:04.959, duration_ms=4959, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-05 01:09:00], mode=PLATFORM_GENERATION, duration=0:00:05.062, duration_ms=5062, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-05 01:12:26], mode=PLATFORM_GENERATION, duration=0:00:06.005, duration_ms=6005, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-05 01:18:18], mode=PLATFORM_GENERATION, duration=0:00:06.209, duration_ms=6209, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-05 01:31:26], mode=PLATFORM_GENERATION, duration=0:00:04.862, duration_ms=4862, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-05 01:31:39], mode=PLATFORM_GENERATION, duration=0:00:06.105, duration_ms=6105, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-05 02:24:09], mode=PLATFORM_GENERATION, duration=0:00:04.752, duration_ms=4752, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-05 02:24:16], mode=PLATFORM_GENERATION, duration=0:00:06.470, duration_ms=6470, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-12 04:45:11], mode=WORKBENCH_START, duration=0:00:37.835, duration_ms=37835, data={}
+timestamp=[2020-06-12 04:45:17], mode=WORKBENCH_UI_INIT, duration=0:00:06.103, duration_ms=6103, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lcd_v2_9600,lcd_v2_9600_system,microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-12 04:46:32], mode=PLATFORM_GENERATION, duration=0:00:11.338, duration_ms=11338, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-12 04:46:45], mode=PLATFORM_GENERATION, duration=0:00:10.113, duration_ms=10113, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-12 04:52:29], mode=PLATFORM_GENERATION, duration=0:00:05.706, duration_ms=5706, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-12 04:52:47], mode=PLATFORM_GENERATION, duration=0:00:05.927, duration_ms=5927, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-12 04:55:37], mode=PLATFORM_GENERATION, duration=0:00:04.752, duration_ms=4752, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-12 04:55:44], mode=PLATFORM_GENERATION, duration=0:00:06.071, duration_ms=6071, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-12 21:33:27], mode=WORKBENCH_START, duration=0:00:27.958, duration_ms=27958, data={}
+timestamp=[2020-06-12 21:33:30], mode=WORKBENCH_UI_INIT, duration=0:00:02.940, duration_ms=2940, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lcd_v2_9600,lcd_v2_9600_system,microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-12 21:42:07], mode=WORKBENCH_START, duration=0:00:09.205, duration_ms=9205, data={}
+timestamp=[2020-06-12 21:42:09], mode=WORKBENCH_UI_INIT, duration=0:00:01.035, duration_ms=1035, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lcd_v2_9600,lcd_v2_9600_system,microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-12 21:47:43], mode=PLATFORM_GENERATION, duration=0:00:07.474, duration_ms=7474, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-12 21:47:50], mode=PLATFORM_GENERATION, duration=0:00:07.254, duration_ms=7254, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-17 15:07:57], mode=WORKBENCH_START, duration=0:00:31.441, duration_ms=31441, data={}
+timestamp=[2020-06-17 15:08:04], mode=WORKBENCH_UI_INIT, duration=0:00:07.122, duration_ms=7122, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lcd_v2_9600,lcd_v2_9600_system,microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-17 20:14:14], mode=WORKBENCH_START, duration=0:00:20.112, duration_ms=20112, data={}
+timestamp=[2020-06-17 20:14:17], mode=WORKBENCH_UI_INIT, duration=0:00:02.197, duration_ms=2197, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lcd_v2_9600,lcd_v2_9600_system,microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-17 20:14:36], mode=PLATFORM_GENERATION, duration=0:00:07.367, duration_ms=7367, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-17 20:15:03], mode=PLATFORM_GENERATION, duration=0:00:08.575, duration_ms=8575, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-17 23:37:40], mode=PLATFORM_GENERATION, duration=0:00:17.638, duration_ms=17638, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-17 23:44:15], mode=WORKBENCH_START, duration=0:00:22.522, duration_ms=22522, data={}
+timestamp=[2020-06-17 23:44:16], mode=WORKBENCH_UI_INIT, duration=0:00:01.049, duration_ms=1049, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lcd_v2_9600,lcd_v2_9600_system,microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-17 23:44:59], mode=PLATFORM_GENERATION, duration=0:00:10.478, duration_ms=10478, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-17 23:48:17], mode=PLATFORM_GENERATION, duration=0:00:04.817, duration_ms=4817, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-17 23:48:28], mode=PLATFORM_GENERATION, duration=0:00:06.188, duration_ms=6188, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-19 02:02:30], mode=WORKBENCH_START, duration=0:00:26.183, duration_ms=26183, data={}
+timestamp=[2020-06-19 02:02:32], mode=WORKBENCH_UI_INIT, duration=0:00:01.554, duration_ms=1554, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lcd_v2_9600,lcd_v2_9600_system,microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-20 03:04:25], mode=WORKBENCH_START, duration=0:00:44.248, duration_ms=44248, data={}
+timestamp=[2020-06-20 03:04:29], mode=WORKBENCH_UI_INIT, duration=0:00:04.012, duration_ms=4012, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lcd_v2_9600,lcd_v2_9600_system,microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-24 15:16:35], mode=WORKBENCH_START, duration=0:00:25.668, duration_ms=25668, data={}
+timestamp=[2020-06-24 15:16:40], mode=WORKBENCH_UI_INIT, duration=0:00:04.326, duration_ms=4326, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lcd_v2_9600,lcd_v2_9600_system,microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-30 20:24:00], mode=WORKBENCH_START, duration=0:00:23.146, duration_ms=23146, data={}
+timestamp=[2020-06-30 20:24:03], mode=WORKBENCH_UI_INIT, duration=0:00:02.513, duration_ms=2513, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lcd_v2_9600,lcd_v2_9600_system,microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-30 22:05:20], mode=PLATFORM_GENERATION, duration=0:00:14.528, duration_ms=14528, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-30 22:18:05], mode=PLATFORM_GENERATION, duration=0:00:04.826, duration_ms=4826, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-30 22:18:18], mode=PLATFORM_GENERATION, duration=0:00:06.257, duration_ms=6257, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-30 23:06:32], mode=PLATFORM_GENERATION, duration=0:00:04.697, duration_ms=4697, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-30 23:06:38], mode=PLATFORM_GENERATION, duration=0:00:05.957, duration_ms=5957, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-30 23:14:50], mode=PLATFORM_GENERATION, duration=0:00:04.747, duration_ms=4747, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-06-30 23:14:57], mode=PLATFORM_GENERATION, duration=0:00:06.099, duration_ms=6099, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-07-01 14:06:32], mode=PLATFORM_GENERATION, duration=0:00:12.281, duration_ms=12281, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-07-01 14:06:40], mode=PLATFORM_GENERATION, duration=0:00:07.058, duration_ms=7058, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-07-05 22:59:14], mode=WORKBENCH_START, duration=0:00:31.661, duration_ms=31661, data={}
+timestamp=[2020-07-05 22:59:16], mode=WORKBENCH_UI_INIT, duration=0:00:02.430, duration_ms=2430, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,lcd_v2_9600,lcd_v2_9600_system,microblaze_bd_wrapper_lcd}
+timestamp=[2020-07-06 00:12:22], mode=PLATFORM_GENERATION, duration=0:00:22.844, duration_ms=22844, data={name=microblaze_bd_wrapper_lcd}
+timestamp=[2020-07-06 00:14:01], mode=PLATFORM_GENERATION, duration=0:00:09.686, duration_ms=9686, data={name=microblaze_bd_wrapper_lcd}

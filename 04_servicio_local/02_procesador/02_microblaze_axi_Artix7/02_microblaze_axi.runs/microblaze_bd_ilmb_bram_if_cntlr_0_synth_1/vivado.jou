@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Jan 24 15:15:24 2020
+# Process ID: 16160
+# Current directory: /home/dorfell/Documents/Vitis_2019.2/socs_design/02_microblaze_axi/02_microblaze_axi.runs/microblaze_bd_ilmb_bram_if_cntlr_0_synth_1
+# Command line: vivado -log microblaze_bd_ilmb_bram_if_cntlr_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source microblaze_bd_ilmb_bram_if_cntlr_0.tcl
+# Log file: /home/dorfell/Documents/Vitis_2019.2/socs_design/02_microblaze_axi/02_microblaze_axi.runs/microblaze_bd_ilmb_bram_if_cntlr_0_synth_1/microblaze_bd_ilmb_bram_if_cntlr_0.vds
+# Journal file: /home/dorfell/Documents/Vitis_2019.2/socs_design/02_microblaze_axi/02_microblaze_axi.runs/microblaze_bd_ilmb_bram_if_cntlr_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source microblaze_bd_ilmb_bram_if_cntlr_0.tcl -notrace

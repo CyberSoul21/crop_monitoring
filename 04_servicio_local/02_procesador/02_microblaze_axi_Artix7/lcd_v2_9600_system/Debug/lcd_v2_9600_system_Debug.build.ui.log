@@ -1,0 +1,6 @@
+2020-07-06T00:30:14.1120600255-00:30:14 **** Incremental Build of configuration Debug for project lcd_v2_9600_system ****
+000-make all 
+000-Skipping SD card image generation. Reason: The system project only has applications for microblaze processors.
+00255-
+00:30:14 Build Finished (took 64ms)
+

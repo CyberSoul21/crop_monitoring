@@ -1,0 +1,83 @@
+2020-01-25T10:01:14.40824800255-10:01:14 **** Build of project microblaze_bd_wrapper ****
+000-buildplatform.sh 36513 microblaze_bd_wrapper  
+000-XSDB Server Channel: tcfchan#7
+000-Building the BSP Library for domain  - standalone_domain on processor microblaze_0
+000-Running Make include in microblaze_0/libsrc/uartlite_v3_3/src
+000-
+000-make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+000-"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+000-s -Wall -Wextra"
+000-
+000-Running Make include in microblaze_0/libsrc/bram_v4_3/src
+000-
+000-make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+000-PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+000-all -Wextra"
+000-
+000-Running Make include in microblaze_0/libsrc/standalone_v7_1/src
+000-
+000-make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+000-" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+000-ons -Wall -Wextra"
+000-
+000-Running Make include in microblaze_0/libsrc/gpio_v4_5/src
+000-
+000-make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+000-PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+000-all -Wextra"
+000-
+000-Running Make include in microblaze_0/libsrc/cpu_v2_10/src
+000-
+000-make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+000-PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+000-all -Wextra"
+000-
+000-Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src
+000-
+000-make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+000-MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+000-Wall -Wextra"
+000-
+000-Compiling uartlite
+000-
+000-mb-ar: creating ../../../lib/libxil.a
+000-Running Make libs in microblaze_0/libsrc/bram_v4_3/src
+000-
+000-make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+000-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+000- -Wextra"
+000-
+000-Compiling bram
+000-
+000-Running Make libs in microblaze_0/libsrc/standalone_v7_1/src
+000-
+000-make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+000-COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+000- -Wall -Wextra"
+000-
+000-Compiling standalone
+000-
+000/microblaze_bd_wrapper/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/standalone_v7_1/src/microblaze_sleep.c75-1-1#pragma message: For the sleep routines, assembly instructions are used0-microblaze_sleep.c:75:9: note: #pragma message: For the sleep routines, assembly instructions are used
+000- #pragma message ("For the sleep routines, assembly instructions are used")
+000-         ^~~~~~~
+000-Running Make libs in microblaze_0/libsrc/gpio_v4_5/src
+000-
+000-make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+000-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+000- -Wextra"
+000-
+000-Compiling gpio
+000-
+000-Running Make libs in microblaze_0/libsrc/cpu_v2_10/src
+000-
+000-make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+000-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+000- -Wextra"
+000-
+000-Compiling cpu
+000-
+000-Finished building libraries
+000-
+00255-
+10:01:30 Build Finished (took 16s.442ms)
+

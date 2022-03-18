@@ -1,0 +1,413 @@
+[
+    {
+        "id": "24d0aebf.d6bd12",
+        "type": "tab",
+        "label": "Monitoreo ",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "2830b3ee.f809ac",
+        "type": "mysql",
+        "z": "24d0aebf.d6bd12",
+        "mydb": "21f1221a.7548ce",
+        "name": "monitoreo",
+        "x": 640,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "73d6c77d.145448",
+        "type": "function",
+        "z": "24d0aebf.d6bd12",
+        "name": "Ver",
+        "func": "msg.topic=\"SELECT * FROM monitoreo1;\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 290,
+        "y": 40,
+        "wires": [
+            [
+                "2830b3ee.f809ac"
+            ]
+        ]
+    },
+    {
+        "id": "d7d76c70.4aecb8",
+        "type": "debug",
+        "z": "24d0aebf.d6bd12",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 810,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "67e55523.03c00c",
+        "type": "function",
+        "z": "24d0aebf.d6bd12",
+        "name": "",
+        "func": "msg.topic=\"INSERT INTO monitoreo1 VALUES (\"+ msg['payload'] +\");\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 490,
+        "y": 500,
+        "wires": [
+            [
+                "2830b3ee.f809ac"
+            ]
+        ]
+    },
+    {
+        "id": "4bf60666.6c6ec8",
+        "type": "inject",
+        "z": "24d0aebf.d6bd12",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 140,
+        "y": 40,
+        "wires": [
+            [
+                "73d6c77d.145448"
+            ]
+        ]
+    },
+    {
+        "id": "e3eaba0a.04e25",
+        "type": "mqtt in",
+        "z": "24d0aebf.d6bd12",
+        "name": "",
+        "topic": "/G1/Humedad_P1_B1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "e8302c8d.d947b",
+        "x": 160,
+        "y": 160,
+        "wires": [
+            [
+                "67e55523.03c00c"
+            ]
+        ]
+    },
+    {
+        "id": "fcfcbb0d.d566c8",
+        "type": "mqtt in",
+        "z": "24d0aebf.d6bd12",
+        "name": "",
+        "topic": "/G1/Temperatura_P1_B1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "e8302c8d.d947b",
+        "x": 170,
+        "y": 100,
+        "wires": [
+            [
+                "67e55523.03c00c"
+            ]
+        ]
+    },
+    {
+        "id": "b1ab903.f848ef",
+        "type": "mqtt in",
+        "z": "24d0aebf.d6bd12",
+        "name": "",
+        "topic": "/G1/Luz_P1_B1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "e8302c8d.d947b",
+        "x": 140,
+        "y": 220,
+        "wires": [
+            [
+                "67e55523.03c00c"
+            ]
+        ]
+    },
+    {
+        "id": "22f07c35.b2632c",
+        "type": "mqtt in",
+        "z": "24d0aebf.d6bd12",
+        "name": "",
+        "topic": "/G1/CO_P1_B1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "e8302c8d.d947b",
+        "x": 140,
+        "y": 280,
+        "wires": [
+            [
+                "67e55523.03c00c"
+            ]
+        ]
+    },
+    {
+        "id": "c0a4ee0e.077aa",
+        "type": "mqtt in",
+        "z": "24d0aebf.d6bd12",
+        "name": "",
+        "topic": "/G1/Humedad_P2_B1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "8644cc34.0cbe2",
+        "x": 160,
+        "y": 400,
+        "wires": [
+            [
+                "67e55523.03c00c"
+            ]
+        ]
+    },
+    {
+        "id": "d0a62313.62709",
+        "type": "mqtt in",
+        "z": "24d0aebf.d6bd12",
+        "name": "",
+        "topic": "/G1/Temperatura_P2_B1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "8644cc34.0cbe2",
+        "x": 170,
+        "y": 340,
+        "wires": [
+            [
+                "67e55523.03c00c"
+            ]
+        ]
+    },
+    {
+        "id": "96f958e.c8327a8",
+        "type": "mqtt in",
+        "z": "24d0aebf.d6bd12",
+        "name": "",
+        "topic": "/G1/Luz_P2_B1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "8644cc34.0cbe2",
+        "x": 140,
+        "y": 460,
+        "wires": [
+            [
+                "67e55523.03c00c"
+            ]
+        ]
+    },
+    {
+        "id": "6752a200.45083",
+        "type": "mqtt in",
+        "z": "24d0aebf.d6bd12",
+        "name": "",
+        "topic": "/G1/CO_P2_B1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "8644cc34.0cbe2",
+        "x": 140,
+        "y": 520,
+        "wires": [
+            [
+                "67e55523.03c00c"
+            ]
+        ]
+    },
+    {
+        "id": "bc98d449.6a6d7",
+        "type": "mqtt in",
+        "z": "24d0aebf.d6bd12",
+        "name": "",
+        "topic": "/G1/Humedad_P3_B1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "8644cc34.0cbe2",
+        "x": 160,
+        "y": 640,
+        "wires": [
+            [
+                "67e55523.03c00c"
+            ]
+        ]
+    },
+    {
+        "id": "4e7ed3a3.d58b4c",
+        "type": "mqtt in",
+        "z": "24d0aebf.d6bd12",
+        "name": "",
+        "topic": "/G1/Temperatura_P3_B1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "e8302c8d.d947b",
+        "x": 170,
+        "y": 580,
+        "wires": [
+            [
+                "67e55523.03c00c"
+            ]
+        ]
+    },
+    {
+        "id": "ca72b042.579a2",
+        "type": "mqtt in",
+        "z": "24d0aebf.d6bd12",
+        "name": "",
+        "topic": "/G1/Luz_P3_B1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "e8302c8d.d947b",
+        "x": 140,
+        "y": 700,
+        "wires": [
+            [
+                "67e55523.03c00c"
+            ]
+        ]
+    },
+    {
+        "id": "8e4f9073.5671f8",
+        "type": "mqtt in",
+        "z": "24d0aebf.d6bd12",
+        "name": "",
+        "topic": "/G1/CO_P3_B1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "e8302c8d.d947b",
+        "x": 140,
+        "y": 760,
+        "wires": [
+            [
+                "67e55523.03c00c"
+            ]
+        ]
+    },
+    {
+        "id": "c76461a1.bbae6",
+        "type": "mqtt in",
+        "z": "24d0aebf.d6bd12",
+        "name": "",
+        "topic": "/G1/Humedad_P4_B1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "e8302c8d.d947b",
+        "x": 160,
+        "y": 880,
+        "wires": [
+            [
+                "67e55523.03c00c"
+            ]
+        ]
+    },
+    {
+        "id": "b10e34c3.858208",
+        "type": "mqtt in",
+        "z": "24d0aebf.d6bd12",
+        "name": "",
+        "topic": "/G1/Temperatura_P4_B1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "e8302c8d.d947b",
+        "x": 170,
+        "y": 820,
+        "wires": [
+            [
+                "67e55523.03c00c"
+            ]
+        ]
+    },
+    {
+        "id": "fa2dd64a.8f3c48",
+        "type": "mqtt in",
+        "z": "24d0aebf.d6bd12",
+        "name": "",
+        "topic": "/G1/Luz_P4_B1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "e8302c8d.d947b",
+        "x": 140,
+        "y": 940,
+        "wires": [
+            [
+                "67e55523.03c00c"
+            ]
+        ]
+    },
+    {
+        "id": "eb6d5c1c.4ca2a",
+        "type": "mqtt in",
+        "z": "24d0aebf.d6bd12",
+        "name": "",
+        "topic": "/G1/CO_P4_B1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "e8302c8d.d947b",
+        "x": 140,
+        "y": 1000,
+        "wires": [
+            [
+                "67e55523.03c00c"
+            ]
+        ]
+    },
+    {
+        "id": "21f1221a.7548ce",
+        "type": "MySQLdatabase",
+        "z": "",
+        "name": "monitoreo",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "monitoreo",
+        "tz": ""
+    },
+    {
+        "id": "e8302c8d.d947b",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "mi server",
+        "broker": "127.0.0.1",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "8644cc34.0cbe2",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "",
+        "broker": "agronet.ddns.net",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    }
+]

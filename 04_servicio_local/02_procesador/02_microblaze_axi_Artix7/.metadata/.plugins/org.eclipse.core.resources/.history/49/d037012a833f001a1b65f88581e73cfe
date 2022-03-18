@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="hello_world" location="/home/dorfell/Documents/Vitis_2019.2/socs_design/02_microblaze_axi/hello_world" platform="/home/dorfell/Documents/Vitis_2019.2/socs_design/02_microblaze_axi/microblaze_bd_wrapper/export/microblaze_bd_wrapper/microblaze_bd_wrapper.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="hello_world_system" sysConfig="microblaze_bd_wrapper" runtime="cpp" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="6779da0a755f18098c233fc891664086">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.2112019177">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1066926678" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

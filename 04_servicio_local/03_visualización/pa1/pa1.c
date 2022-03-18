@@ -1,0 +1,159 @@
+//Insertar en: postinitialize event
+//Crear estas variables: 
+//pagina pa1, pa1, 
+//procesamiento de los datos
+if(FromPage.txt=="1")//Si viene de la pa0
+{
+  if(pa0.p1.txt=="1")
+  {
+    b2.pic=1
+  }else
+  {
+    b2.pic=3
+  }
+  if(pa0.p2.txt=="1")
+  {
+    b3.pic=1
+  }else
+  {
+    b3.pic=3
+  }
+  if(pa0.p3.txt=="1")
+  {
+    b4.pic=1
+  }else
+  {
+    b4.pic=3
+  }
+  if(pa0.p4.txt=="1")
+  {
+    b5.pic=1
+  }else
+  {
+    b5.pic=3
+  }
+}
+if(FromPage.txt=="2")//Si viene de la pa2
+{
+  if(pa2.p1.txt=="1")
+  {
+    b2.pic=1
+  }else
+  {
+    b2.pic=3
+  }
+  if(pa2.p2.txt=="1")
+  {
+    b3.pic=1
+  }else
+  {
+    b3.pic=3
+  }
+  if(pa2.p3.txt=="1")
+  {
+    b4.pic=1
+  }else
+  {
+    b4.pic=3
+  }
+  if(pa2.p4.txt=="1")
+  {
+    b5.pic=1
+  }else
+  {
+    b5.pic=3
+  }
+}
+if(FromPage.txt=="3")//Si viene de la pa3
+{
+  if(pa3.p1.txt=="1")
+  {
+    b2.pic=1
+  }else
+  {
+    b2.pic=3
+  }
+  if(pa3.p2.txt=="1")
+  {
+    b3.pic=1
+  }else
+  {
+    b3.pic=3
+  }
+  if(pa3.p3.txt=="1")
+  {
+    b4.pic=1
+  }else
+  {
+    b4.pic=3
+  }
+  if(pa3.p4.txt=="1")
+  {
+    b5.pic=1
+  }else
+  {
+    b5.pic=3
+  }
+}
+if(FromPage.txt=="4")//Si viene de la pa4
+{
+  if(pa4.p1.txt=="1")
+  {
+    b2.pic=1
+  }else
+  {
+    b2.pic=3
+  }
+  if(pa4.p2.txt=="1")
+  {
+    b3.pic=1
+  }else
+  {
+    b3.pic=3
+  }
+  if(pa4.p3.txt=="1")
+  {
+    b4.pic=1
+  }else
+  {
+    b4.pic=3
+  }
+  if(pa4.p4.txt=="1")
+  {
+    b5.pic=1
+  }else
+  {
+    b5.pic=3
+  }
+}
+if(FromPage.txt=="5")//Si viene de la pa5
+{
+  if(pa5.p1.txt=="1")
+  {
+    b2.pic=1
+  }else
+  {
+    b2.pic=3
+  }
+  if(pa5.p2.txt=="1")
+  {
+    b3.pic=1
+  }else
+  {
+    b3.pic=3
+  }
+  if(pa5.p3.txt=="1")
+  {
+    b4.pic=1
+  }else
+  {
+    b4.pic=3
+  }
+  if(pa5.p4.txt=="1")
+  {
+    b5.pic=1
+  }else
+  {
+    b5.pic=3
+  }
+}

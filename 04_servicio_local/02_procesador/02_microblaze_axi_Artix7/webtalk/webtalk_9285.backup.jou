@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# 
+# Start of session at: Wed Jun 24 23:34:45 2020
+# Process ID: 9285
+# Current directory: /home/javier/Documents/monitoreo_cultivo/LCD/Procesador/02_microblaze_axi_Artix7/webtalk
+# Command line: wbtcv -mode batch -source vitis_webtalk.tcl
+# Log file: /home/javier/Documents/monitoreo_cultivo/LCD/Procesador/02_microblaze_axi_Artix7/webtalk/webtalk.log
+# Journal file: /home/javier/Documents/monitoreo_cultivo/LCD/Procesador/02_microblaze_axi_Artix7/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source vitis_webtalk.tcl

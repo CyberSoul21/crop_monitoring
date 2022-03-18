@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="lcd_v2_9600" location="/home/javier/Desktop/Debian2/02_microblaze_axi_Artix7/lcd_v2_9600" platform="/home/javier/Desktop/Debian2/02_microblaze_axi_Artix7/microblaze_bd_wrapper_lcd/export/microblaze_bd_wrapper_lcd/microblaze_bd_wrapper_lcd.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="lcd_v2_9600_system" sysConfig="microblaze_bd_wrapper_lcd" runtime="cpp" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="3b1d6594cc5d131f4879adbc978b803a">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.753695022">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1050163679" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
